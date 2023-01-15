@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+
+    color: black;
+}
+
+header {
+    background-color: darkgrey;
+    display: inline-block;
+    height: 4rem;
+    width: 100%;
+}
+
+.navegador {
+
+    text-align: center;
+    margin: 3rem;
+}
+
+.navegador li {
+    font-family: 'Lora', serif;
+    display: inline;
+}
+
+/*estilo de pagina de inico*/
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    gap: 2rem;
+    padding: 1rem;
+    align-content: center;
+
+}
+
+.intro__titulo {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+
+}
+
+.intro__imagen {
+    width: 600px;
+    padding: 3rem 2rem;
+
+}
+
+.intro__parrafo {
+    display: inline-block;
+    width: 30rem;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: auto;
+    align-items: flex-start;
+
+}
+
+.formulario {
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.formulario__borde {
+    background-color: burlywood;
+    padding: 2rem;
+    border: 0rem;
+}
+
+.formulario__titulo {
+    font-weight: lighter;
+
+}
+
+.formulario__textarea {
+    font-family: 'Lora', serif;
+}
+
+footer {
+    font-family: 'Lora', serif;
+    margin: 3rem;
+    display: flex;
+
+    align-items: center;
+    justify-content: left;
+}
+
+/*estilo de seccion integrantes*/
+
+.integrantes {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    gap: 2rem;
+    padding: 1rem;
+    align-content: center;
+}
+
+.integrantes__div {
+    display: grid;
+    grid-template-areas:
+        "titulo titulo"
+        "foto texto";
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto auto;
+}
+
+.integrantes__div h2 {
+    grid-area: titulo;
+}
+
+.integrantes__div img {
+    grid-area: foto;
+}
+
+.integrantes__div p {
+    grid-area: texto;
+}
+
+.integrantes__parrafo {
+    display: inline-block;
+    width: 50rem;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: auto;
+    align-items: flex-start;
+    justify-content: right;
+}
+
+.integrantes__aside {
+    display: flex;
+    width: 50%;
+    padding: 3rem 2rem;
+    flex-direction: column;
+    height: 50%;
+    border-radius: 50%;
+
+}
+
+#charly__img {
+    display: flex;
+    width: 50%;
+    padding: 3rem 2rem;
+    flex-direction: column;
+    height: 40%;
+    border-radius: 50%;
+}
+
+/*estilo seccion historia*/
+#historiaSeccion {
+    padding: 3rem;
+}
+
+#historia__titulo {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+}
+
+/*estilo seccion imagenes*/
+#seccion__imagenes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    column-gap: 2rem;
+}
+
+#seccion__imagenes img {
+
+    width: 500px;
+    padding: 3rem 2rem;
+    height: 400px;
+}
+
+
+/*la idea de la seccion de imagenes es generar una galeria
+en la que se pueda seleccionar cada una y verla en su tamaño 
+original y desplazar cada una en una animacion, por ahora les 
+di un tamaño en las que algunas imagenes se pixelean pero 
+no sucedera en el sitio final.*/
