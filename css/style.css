@@ -35,8 +35,48 @@ body {
     display: inline;
 }
 
-/*estilo de pagina de inico*/
 .intro {
+    display: grid;
+    grid-template-areas: "titulo"
+        "foto"
+        "parrafo"
+        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+.intro__titulo {
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+}
+
+.intro__imagen {
+    grid-area: foto;
+    width: 100%;
+    padding: 3rem 2rem
+}
+
+.intro__parrafo {
+    grid-area: parrafo;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: auto;
+    align-items: flex-start;
+}
+
+.pieDePagina {
+    grid-area: footer;
+}
+
+/*estilo de pagina de inico*/
+/*.intro {
     display: grid;
     grid-template-areas: "titulo titulo"
         "imagen parrafo"
@@ -93,9 +133,10 @@ footer {
 
     align-items: center;
     justify-content: left;
-}
+}*/
 
 /*estilo de seccion integrantes*/
+
 
 .integrantes {
     display: grid;
