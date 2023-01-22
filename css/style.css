@@ -45,6 +45,28 @@ body {
     grid-template-rows: auto;
 }
 
+@media screen and (min-width: 768px) {
+    .intro {
+        grid-template-areas: "titulo titulo"
+            "foto parrafo"
+            "footer footer";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+
+    .intro__parrafo {
+        padding-top: 4rem;
+        width: 30rem;
+        transform: translateY(2rem);
+    }
+
+    .intro__imagen {
+        padding: 0%;
+        width: 600px;
+    }
+}
+
+
 .intro__titulo {
     grid-area: titulo;
     display: flex;
@@ -52,6 +74,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 4rem;
+    font-family: 'Lora', serif;
 }
 
 .intro__imagen {
@@ -69,6 +92,7 @@ body {
     line-height: 1.5;
     letter-spacing: auto;
     align-items: flex-start;
+    font-family: 'Lora', serif;
 }
 
 .pieDePagina {
