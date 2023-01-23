@@ -45,7 +45,7 @@ body {
     grid-template-rows: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .intro {
         grid-template-areas: "titulo titulo"
             "foto parrafo"
@@ -173,15 +173,38 @@ footer {
     align-content: center;
 }
 
-.integrantes__div {
+
+
+
+
+/*.integrantes__div {
     display: grid;
     grid-template-areas:
         "titulo titulo"
         "foto texto";
     grid-template-columns: 30% 70%;
     grid-template-rows: auto auto;
+}*/
+
+.integrantes__div {
+    display: grid;
+    grid-template-areas: "titulo"
+        "foto"
+        "texto";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
 }
 
+@media screen and (min-width: 1024px) {
+    .integrantes__div {
+        display: grid;
+        grid-template-areas:
+            "titulo titulo"
+            "foto texto";
+        grid-template-columns: 30% 70%;
+        grid-template-rows: auto auto;
+    }
+}
 
 .integrantes__div h2 {
     grid-area: titulo;
@@ -199,7 +222,7 @@ footer {
 
 .integrantes__parrafo {
     display: inline-block;
-    width: 50rem;
+    width: 100%;
     text-align: justify;
     line-height: 1.5;
     letter-spacing: auto;
@@ -222,7 +245,7 @@ footer {
     width: 50%;
     padding: 3rem 2rem;
     flex-direction: column;
-    height: 40%;
+    height: 50%;
     border-radius: 50%;
 }
 
