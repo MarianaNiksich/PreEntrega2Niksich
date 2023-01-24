@@ -211,6 +211,15 @@ footer {
         grid-template-rows: auto auto;
     }
 }
+.integrantes__titulo{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: 'Lora', serif;
+    margin-top: 2rem;
+}
 
 .integrantes__div h2 {
     grid-area: titulo;
@@ -261,12 +270,11 @@ footer {
     padding: 3rem;
 }
 
-#historia__titulo {
+.historia__iframe{
+    padding: 3rem; 
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 4rem;
+    justify-content: center;
 }
 
 /*estilo seccion imagenes*/
@@ -289,4 +297,16 @@ footer {
 en la que se pueda seleccionar cada una y verla en su tamaño 
 original y desplazar cada una en una animacion, por ahora les 
 di un tamaño en las que algunas imagenes se pixelean pero 
-no sucedera en el sitio final.*/
+no sucedera en el sitio final.
+
+sección discografia*/
+
+.discografia__iframe{
+    padding: 3rem;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    gap:2rem; 
+    justify-content: center; 
+    
+}
