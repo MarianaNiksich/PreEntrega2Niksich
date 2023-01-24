@@ -229,6 +229,7 @@ footer {
     letter-spacing: auto;
     align-items: flex-start;
     justify-content: right;
+    transform: translateY(2rem);
 }
 
 .integrantes__aside {
