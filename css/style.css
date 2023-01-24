@@ -100,7 +100,8 @@ body {
 }
 
 /*estilo de pagina de inico*/
-/*.intro {
+/*ESTILOS ANTERIORES DE APLICAR MOBILE FIRST
+.intro {
     display: grid;
     grid-template-areas: "titulo titulo"
         "imagen parrafo"
@@ -147,7 +148,7 @@ body {
 
 .pieDePagina {
     grid-area: footer;
-}
+}*/
 
 
 footer {
@@ -157,7 +158,7 @@ footer {
 
     align-items: center;
     justify-content: left;
-}*/
+}
 
 /*estilo de seccion integrantes*/
 
@@ -232,20 +233,20 @@ footer {
 
 .integrantes__aside {
     display: flex;
-    width: 50%;
+    width: 100%;
     padding: 3rem 2rem;
     flex-direction: column;
-    height: 50%;
+    height: 100%;
     border-radius: 50%;
 
 }
 
 #charly__img {
     display: flex;
-    width: 50%;
+    width: 100%;
     padding: 3rem 2rem;
     flex-direction: column;
-    height: 50%;
+    height: 100%;
     border-radius: 50%;
 }
 
