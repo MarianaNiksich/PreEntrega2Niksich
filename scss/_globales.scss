@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+
+    color: black;
+}
+
+header {
+    background-color: #d6ccc2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    font-family: 'Lora', serif;
+
+    nav {
+        background-color: #d6ccc2;
+    }
+}
+
+
+body {
+    background-color: #f5ebe0;
+}
+
+
+
+.navegador {
+
+    text-align: center;
+    margin: 3rem;
+
+    li {
+        font-family: 'Lora', serif;
+        display: inline;
+    }
+}
+
+
+
+
+
+footer {
+    font-family: 'Lora', serif;
+    margin: 3rem;
+    display: flex;
+
+    align-items: center;
+    justify-content: left;
+}

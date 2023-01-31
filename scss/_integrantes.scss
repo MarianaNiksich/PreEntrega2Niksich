@@ -1,0 +1,89 @@
+
+
+
+.integrantes {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    gap: 2rem;
+    padding: 1rem;
+    align-content: center;
+}
+
+
+
+.integrantes__div {
+    display: grid;
+    grid-template-areas: "titulo"
+        "foto"
+        "texto";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .integrantes__div {
+        display: grid;
+        grid-template-areas:
+            "titulo titulo"
+            "foto texto";
+        grid-template-columns: 30% 70%;
+        grid-template-rows: auto auto;
+    }
+}
+
+.integrantes__titulo {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: 'Lora', serif;
+    margin-top: 2rem;
+}
+
+.integrantes__div h2 {
+    grid-area: titulo;
+    margin-top: 3.5rem;
+}
+
+.integrantes__div img {
+    grid-area: foto;
+}
+
+.integrantes__div p {
+    grid-area: texto;
+    ;
+}
+
+.integrantes__parrafo {
+    display: inline-block;
+    width: 100%;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: auto;
+    align-items: flex-start;
+    justify-content: right;
+    transform: translateY(2rem);
+}
+
+.integrantes__aside {
+    display: flex;
+    width: 100%;
+    padding: 3rem 2rem;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+#charly__img {
+    display: flex;
+    width: 100%;
+    padding: 3rem 2rem;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 50%;
+}
