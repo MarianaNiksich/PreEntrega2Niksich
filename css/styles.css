@@ -131,7 +131,7 @@ footer {
     grid-template-rows: auto;
   }
   .intro__parrafo {
-    padding-top: 4rem;
+    padding-top: 64px;
     width: 30rem;
     transform: translateY(2rem);
   }
@@ -148,13 +148,13 @@ footer {
   font-weight: normal;
   font-size: 4rem;
   font-family: "Lora", serif;
-  margin-top: 2rem;
+  margin-top: 32px;
 }
 
 .intro__imagen {
   grid-area: foto;
   width: 100%;
-  padding: 3rem 2rem;
+  padding: 48px 32px;
 }
 
 .intro__parrafo {

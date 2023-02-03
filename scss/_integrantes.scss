@@ -1,12 +1,9 @@
-
-
-
 .integrantes {
     display: grid;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Lora', serif;
+    font-family: $font-family;
     gap: 2rem;
     padding: 1rem;
     align-content: center;
@@ -40,7 +37,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
-    font-family: 'Lora', serif;
+    font-family: $font-family;
     margin-top: 2rem;
 }
 

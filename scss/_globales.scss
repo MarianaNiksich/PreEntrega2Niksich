@@ -9,13 +9,13 @@ a {
 }
 
 header {
-    background-color: #d6ccc2;
+    background-color: $color-oscuro;
     height: 5rem;
     width: 100%;
-    font-family: 'Lora', serif;
+    font-family: $font-family;
 
     nav {
-        background-color: #d6ccc2;
+        background-color: $color-oscuro;
         position: fixed;
 
     }
@@ -23,7 +23,7 @@ header {
 
 
 body {
-    background-color: #f5ebe0;
+    background-color: $color-claro;
 }
 
 
@@ -34,7 +34,7 @@ body {
     margin: 3rem;
 
     li {
-        font-family: 'Lora', serif;
+        font-family: $font-family;
         display: inline;
     }
 }
@@ -44,7 +44,7 @@ body {
 
 
 footer {
-    font-family: 'Lora', serif;
+    font-family: $font-family;
     margin: 3rem;
     display: flex;
 

@@ -18,7 +18,7 @@
     }
 
     .intro__parrafo {
-        padding-top: 4rem;
+        padding-top: $espaciado-grande;
         width: 30rem;
         transform: translateY(2rem);
     }
@@ -37,14 +37,14 @@
     font-style: normal;
     font-weight: normal;
     font-size: 4rem;
-    font-family: 'Lora', serif;
-    margin-top: 2rem;
+    font-family: $font-family;
+    margin-top: $espaciado-chico;
 }
 
 .intro__imagen {
     grid-area: foto;
     width: 100%;
-    padding: 3rem 2rem
+    padding: ($espaciado-grande)-16px $espaciado-chico
 }
 
 .intro__parrafo {
@@ -56,7 +56,7 @@
     line-height: 1.5;
     letter-spacing: auto;
     align-items: flex-start;
-    font-family: 'Lora', serif;
+    font-family: $font-family;
 }
 
 .pieDePagina {
