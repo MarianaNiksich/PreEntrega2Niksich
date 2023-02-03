@@ -10,15 +10,14 @@ a {
 
 header {
     background-color: #d6ccc2;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     height: 5rem;
     width: 100%;
     font-family: 'Lora', serif;
 
     nav {
         background-color: #d6ccc2;
+        position: fixed;
+
     }
 }
 
