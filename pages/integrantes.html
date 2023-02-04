@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,12 +28,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                
+
                     <a class="nav-link" href="../index.html">Inicio</a>
                     <a class="nav-link" href="integrantes.html">Integrantes</a>
                     <a class="nav-link" href="historia.html">Historia</a>
-                    <a class="nav-link " href="discografia.html" tabindex="-1"
-                        aria-disabled="true">Discografia</a>
+                    <a class="nav-link " href="discografia.html" tabindex="-1" aria-disabled="true">Discografia</a>
                     <a class="nav-link" href="galeria-imagenes.html">Galeria de imágenes</a>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                 <div class="integrantes__div">
                     <h2 class="integrantes__titulo">Charly García</h2>
                     <img id="charly__img" src="../img/SWYREY334RC7FBPGSTAFROBS5U.jpg" alt="charly garcia"
-                        class="wow  integrantes__aside animate__animated animate__bounce">
+                        data-aos="fade-right" class="  integrantes__aside">
                     <p class="integrantes__parrafo">
                         Carlos Alberto García (Buenos Aires, 23 de octubre de 1951), conocido por su nombre artístico
                         Charly García (a veces escrito como Charlie García), es un cantautor, vocalista,
@@ -81,8 +81,8 @@
             </div>
             <div class="integrantes__div">
                 <h2 class="integrantes__titulo">David Lebon</h2>
-                <img src="../img/e86e5d5677fd816ea75e19fd26eb1dbf.jpg" alt="david lebon"
-                    class="wow integrantes__aside  animate__animated animate__bounce ">
+                <img src="../img/e86e5d5677fd816ea75e19fd26eb1dbf.jpg" alt="david lebon" data-aos="fade-right"
+                    class=" integrantes__aside  ">
                 <p class="integrantes__parrafo">
                     Oscar David Lebón (Buenos Aires, 5 de octubre de 1952) es un músico guitarrista y
                     multiinstrumentista de rock argentino, fue durante mucho tiempo (70s y 80s) considerado el
@@ -98,7 +98,7 @@
             <div class="integrantes__div">
                 <h2 class="integrantes__titulo">Pedro Aznar </h2>
                 <img src="../img/ab6761610000e5ebad85dd3f57f08a11a1723886.jpg" alt="pedro aznar"
-                    class="integrantes__aside wow animate__animated animate__bounce">
+                    class="integrantes__aside" data-aos="fade-right">
                 <p class="integrantes__parrafo">Pedro Aznar (Buenos Aires, 23 de julio de 1959) es un cantante,
                     multiinstrumentista, compositor y
                     poeta argentino. Fue integrante de los grupos Madre Atómica, Alas, Serú Girán, Spinetta Jade y
@@ -116,8 +116,7 @@
             </div>
             <div class="integrantes__div">
                 <h2 class="integrantes__titulo">Oscar Moro</h2>
-                <img class="integrantes__aside wow animate__animated animate__bounce" src="../img/download (4).jpg"
-                    alt="oscar moro">
+                <img class="integrantes__aside" data-aos="fade-right" src="../img/download (4).jpg" alt="oscar moro">
                 <p class="integrantes__parrafo  ">Oscar Moro (Rosario, 24 de enero de 1948 - Buenos Aires, 7 de agosto
                     de 2006) fue un músico y
                     baterista de rock argentino, miembro de algunas de las bandas de rock más importantes de la
@@ -135,7 +134,10 @@
     <script>
         new WOW().init();
     </script>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
