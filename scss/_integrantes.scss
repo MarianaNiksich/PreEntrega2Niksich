@@ -18,6 +18,20 @@
         "texto";
     grid-template-columns: 100%;
     grid-template-rows: auto;
+
+    h2 {
+        grid-area: titulo;
+        margin-top: 3.5rem;
+    }
+
+    img {
+        grid-area: foto;
+    }
+
+    p {
+        grid-area: texto;
+
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -39,20 +53,6 @@
     font-size: 2rem;
     font-family: $font-family;
     margin-top: 2rem;
-}
-
-.integrantes__div h2 {
-    grid-area: titulo;
-    margin-top: 3.5rem;
-}
-
-.integrantes__div img {
-    grid-area: foto;
-}
-
-.integrantes__div p {
-    grid-area: texto;
-    ;
 }
 
 .integrantes__parrafo {
