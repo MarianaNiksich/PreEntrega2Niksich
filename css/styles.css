@@ -31,7 +31,7 @@ footer {
   justify-content: center;
   align-items: center;
   font-family: "Lora", serif;
-  gap: 2rem;
+  gap: 32px;
   padding: 1rem;
   align-content: center;
 }
@@ -68,7 +68,7 @@ footer {
   font-weight: normal;
   font-size: 2rem;
   font-family: "Lora", serif;
-  margin-top: 2rem;
+  margin-top: 64px;
 }
 
 .integrantes__parrafo {
@@ -79,13 +79,13 @@ footer {
   letter-spacing: auto;
   align-items: flex-start;
   justify-content: right;
-  transform: translateY(2rem);
+  transform: translateY(64px);
 }
 
 .integrantes__aside {
   display: flex;
   width: 100%;
-  padding: 3rem 2rem;
+  padding: 48px 32px;
   flex-direction: column;
   height: 100%;
   border-radius: 50%;
@@ -94,7 +94,7 @@ footer {
 #charly__img {
   display: flex;
   width: 100%;
-  padding: 3rem 2rem;
+  padding: 48px 32px;
   flex-direction: column;
   height: 100%;
   border-radius: 50%;
@@ -168,11 +168,11 @@ footer {
 }
 
 .discografia__iframe {
-  padding: 3rem;
+  padding: 48px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 32px;
   justify-content: center;
 }
 

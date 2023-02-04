@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     font-family: $font-family;
-    gap: 2rem;
+    gap: $espaciado-chico;
     padding: 1rem;
     align-content: center;
 }
@@ -52,7 +52,7 @@
     font-weight: normal;
     font-size: 2rem;
     font-family: $font-family;
-    margin-top: 2rem;
+    margin-top: $espaciado-grande;
 }
 
 .integrantes__parrafo {
@@ -63,13 +63,13 @@
     letter-spacing: auto;
     align-items: flex-start;
     justify-content: right;
-    transform: translateY(2rem);
+    transform: translateY($espaciado-grande);
 }
 
 .integrantes__aside {
     display: flex;
     width: 100%;
-    padding: 3rem 2rem;
+    padding: ($espaciado-grande)-16px $espaciado-chico;
     flex-direction: column;
     height: 100%;
     border-radius: 50%;
@@ -79,7 +79,7 @@
 #charly__img {
     display: flex;
     width: 100%;
-    padding: 3rem 2rem;
+    padding: ($espaciado-grande)-16px $espaciado-chico;
     flex-direction: column;
     height: 100%;
     border-radius: 50%;
