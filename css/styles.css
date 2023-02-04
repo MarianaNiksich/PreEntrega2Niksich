@@ -5,30 +5,16 @@
 
 a {
   color: black;
-}
-
-header {
-  background-color: #d6ccc2;
-  height: 5rem;
-  width: 100%;
   font-family: "Lora", serif;
 }
-header nav {
+
+nav {
   background-color: #d6ccc2;
   position: fixed;
 }
 
 body {
   background-color: #f5ebe0;
-}
-
-.navegador {
-  text-align: center;
-  margin: 3rem;
-}
-.navegador li {
-  font-family: "Lora", serif;
-  display: inline;
 }
 
 footer {

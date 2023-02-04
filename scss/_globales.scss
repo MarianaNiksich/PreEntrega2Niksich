@@ -6,42 +6,19 @@
 a {
 
     color: black;
-}
-
-header {
-    background-color: $color-oscuro;
-    height: 5rem;
-    width: 100%;
     font-family: $font-family;
-
-    nav {
-        background-color: $color-oscuro;
-        position: fixed;
-
-    }
 }
 
+
+nav {
+    background-color: $color-oscuro;
+    position: fixed;
+
+}
 
 body {
     background-color: $color-claro;
 }
-
-
-
-.navegador {
-
-    text-align: center;
-    margin: 3rem;
-
-    li {
-        font-family: $font-family;
-        display: inline;
-    }
-}
-
-
-
-
 
 footer {
     font-family: $font-family;
