@@ -12,7 +12,7 @@
 
 
 .integrantes__div {
-    @include mobile-first-integrantes;
+    @include mobile-first-intro;
 
     h2 {
         grid-area: titulo;

@@ -14,12 +14,3 @@ $espaciado-chico: 32px;
     grid-template-rows: auto;
 }
 
-@mixin mobile-first-integrantes {
-    display: grid;
-    grid-template-areas: "titulo"
-        "foto"
-        "parrafo"
-        "footer";
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-}
