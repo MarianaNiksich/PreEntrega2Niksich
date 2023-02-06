@@ -12,12 +12,7 @@
 
 
 .integrantes__div {
-    display: grid;
-    grid-template-areas: "titulo"
-        "foto"
-        "texto";
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
+    @include mobile-first-integrantes;
 
     h2 {
         grid-area: titulo;

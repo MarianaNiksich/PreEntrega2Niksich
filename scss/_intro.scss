@@ -1,11 +1,5 @@
 .intro {
-    display: grid;
-    grid-template-areas: "titulo"
-        "foto"
-        "parrafo"
-        "footer";
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
+    @include mobile-first-intro
 }
 
 @media screen and (min-width: 1024px) {
@@ -50,14 +44,8 @@
 
 .intro__parrafo {
     grid-area: parrafo;
-    display: inline-block;
-    width: 100%;
     padding: 1rem;
-    text-align: justify;
-    line-height: 1.5;
-    letter-spacing: auto;
-    align-items: flex-start;
-    font-family: $font-family;
+    @extend .integrantes__parrafo
 }
 
 .pieDePagina {

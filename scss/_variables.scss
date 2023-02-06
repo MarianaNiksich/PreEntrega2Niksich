@@ -3,3 +3,23 @@ $color-claro: #f5ebe0;
 $font-family: 'Lora', serif;
 $espaciado-grande: 64px;
 $espaciado-chico: 32px;
+
+@mixin mobile-first-intro {
+    display: grid;
+    grid-template-areas: "titulo"
+        "foto"
+        "parrafo"
+        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+@mixin mobile-first-integrantes {
+    display: grid;
+    grid-template-areas: "titulo"
+        "foto"
+        "parrafo"
+        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
