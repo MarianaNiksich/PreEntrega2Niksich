@@ -24,7 +24,7 @@
     }
 
     p {
-        grid-area: texto;
+        grid-area: parrafo;
 
     }
 }
@@ -34,7 +34,7 @@
         display: grid;
         grid-template-areas:
             "titulo titulo"
-            "foto texto";
+            "foto parrafo";
         grid-template-columns: 30% 70%;
         grid-template-rows: auto auto;
     }
