@@ -169,4 +169,23 @@ footer {
   justify-content: center;
 }
 
+#seccion__imagenes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  gap: 32px;
+}
+#seccion__imagenes img {
+  width: 550px;
+  height: 500px;
+  padding-left: 32px;
+  margin-top: 32px;
+  border-radius: 20%;
+}
+#seccion__imagenes img:hover {
+  width: 650px;
+  height: 600px;
+  transition: 1s;
+}
+
 /*# sourceMappingURL=styles.css.map */

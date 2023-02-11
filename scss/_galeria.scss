@@ -1,0 +1,21 @@
+#seccion__imagenes {
+    img {
+        width: 550px;
+        height: 500px;
+        padding-left: $espaciado-chico;
+        margin-top: $espaciado-chico;
+        border-radius: 20%;
+
+        &:hover {
+            width: 650px;
+            height: 600px;
+            transition: 1s;
+        }
+
+    }
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap:$espaciado-chico;
+}
