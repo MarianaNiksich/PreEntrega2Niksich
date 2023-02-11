@@ -1,10 +1,32 @@
 #historiaSeccion {
+    display: grid;
+    grid-template-areas: "titulo" "video" "parrafo";
+    grid-template-columns: 100% 100% 100%;
+    grid-template-rows: auto auto auto;
     padding: ($espaciado-grande)-16px;
+    /*padding: ($espaciado-grande)-16px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;*/
+
 }
 
 .historia__iframe {
-    padding: ($espaciado-grande)-16px;;
+    /* width: 100%;
+    height: auto;*/
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: ($espaciado-grande)-16px;
+    grid-area: video;
+}
+
+.historia__parrafo {
+    grid-area: parrafo;
+    @extend .integrantes__parrafo
+}
+
+.historia__titulo {
+    grid-area: titulo;
+    @extend .integrantes__titulo
 }
